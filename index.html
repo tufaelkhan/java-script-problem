@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="five.js"></script>
+    <title>Document</title>
+    <script>
+        function print_current_page(){
+            window.print()
+        }
+    </script>
+</head>
+<body>
+    <button onclick="print_current_page()">click</button>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque mollitia? Praesentium libero commodi assumenda quam officiis, perferendis neque aspernatur facere, hic amet iste placeat. Perspiciatis ullam laboriosam maxime alias.
+
+    <form>
+        <input type="text" id="first" placeholder="first number"><br><br>
+        <input type="text" id="second" placeholder="second number"><br><br>
+    <input type="submit" onclick="multiplyBy()" value="multiply">
+    <input type="submit" onclick="divideBy()" value="divide">
+    </form>
+    <p>The result is: <br><span id="result"></span></p>
+</body><br>
+
+</html>
